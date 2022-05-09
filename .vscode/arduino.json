@@ -1,0 +1,7 @@
+{
+    "port": "/dev/ttyACM0",
+    "configuration": "mode=on",
+    "board": "arduino:megaavr:uno2018",
+    "programmer": "arduino:medbg",
+    "sketch": "iot_gsm.ino"
+}
