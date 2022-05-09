@@ -12,7 +12,7 @@ Pin Description :-
     6. Rx(Arduino)     --> 3
     7. Tx(Arduino)     --> 2
 ```
-<img src="" alt="" style="height:10rem;">
+<img src="./schematic.jpg" alt="" style="height:50rem;">
 
 ### Commands for various operations (Send SMS)
 | Sl No. | Command     |     Description      |
