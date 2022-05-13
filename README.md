@@ -8,7 +8,6 @@ Pin Description :-
     3. Rlay 3 (Bulb 3) --> 11
     4. Rlay 4 (Bulb 4) --> 10
     5. Rlay 5 (fan 1 ) --> 4
-
     6. Rx(Arduino)     --> 3
     7. Tx(Arduino)     --> 2
 ```
@@ -27,3 +26,5 @@ Pin Description :-
 |   8    | b4off       | Turn off bulb 4      |
 |   9    | f1on        | Turn on fan  1       |
 |   10   | f1off       | Turn off fan  1      |
+|   11   | all on      | Turn on all appliance|
+|   12   | all off     | Turn off all         |

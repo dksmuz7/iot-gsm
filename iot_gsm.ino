@@ -63,6 +63,7 @@ void loop(){
     bulb_2(txt_msg);
     bulb_3(txt_msg);
     fan_1(txt_msg);
+    all_appliance(txt_msg);
 
 }
 
@@ -76,7 +77,7 @@ void bulb_1(String txt_msg){
         txt_msg = "";
     }
     if(txt_msg.indexOf("b1")>=0 && txt_msg.indexOf("off")>=0){
-        // Turning off bulb 1 and save current state
+        // Turning on bulb 1 and save current state
         digitalWrite(b1_relay, HIGH);
         state = "Bulb 1 --> off";
         Serial.println("Bulb 1 --> off");
@@ -87,14 +88,14 @@ void bulb_1(String txt_msg){
 // Logic for bulb 2
 void bulb_2(String txt_msg){
     if(txt_msg.indexOf("b2")>=0 && txt_msg.indexOf("on")>=0){
-        // Turning on bulb 2 and save current state
+        // Turning on bulb 1 and save current state
         digitalWrite(b2_relay, LOW);
         state = "Bulb 2 --> on";
         Serial.println("Bulb 2 --> on");
         txt_msg = "";
     }
     if(txt_msg.indexOf("b2")>=0 && txt_msg.indexOf("off")>=0){
-        // Turning off bulb 2 and save current state
+        // Turning on bulb 2 and save current state
         digitalWrite(b2_relay, HIGH);
         state = "Bulb 2 --> off";
         Serial.println("Bulb 2 --> off");
@@ -105,14 +106,14 @@ void bulb_2(String txt_msg){
 // Logic for bulb 3
 void bulb_3(String txt_msg){
     if(txt_msg.indexOf("b3")>=0 && txt_msg.indexOf("on")>=0){
-        // Turning on bulb 3 and save current state
+        // Turning on bulb 1 and save current state
         digitalWrite(b3_relay, LOW);
         state = "Bulb 3 --> on";
         Serial.println("Bulb 3 --> on");
         txt_msg = "";
     }
     if(txt_msg.indexOf("b3")>=0 && txt_msg.indexOf("off")>=0){
-        // Turning off bulb 3 and save current state
+        // Turning on bulb 3 and save current state
         digitalWrite(b3_relay, HIGH);
         state = "Bulb 3 --> off";
         Serial.println("Bulb 3 --> off");
@@ -130,7 +131,7 @@ void fan_1(String txt_msg){
         txt_msg = "";
     }
     if(txt_msg.indexOf("f1")>=0 && txt_msg.indexOf("off")>=0){
-        // Turning off fan 1 and save current state
+        // Turning on fan 1 and save current state
         digitalWrite(f1_relay, HIGH);
         state = "Fan 1 --> off";
         Serial.println("Fan 1 --> off");
@@ -151,7 +152,7 @@ void all_appliance(String txt_msg){
         txt_msg = "";
     }
     if(txt_msg.indexOf("all")>=0 && txt_msg.indexOf("off")>=0){
-        // Turning off fan 1 and save current state
+        // Turning on fan 1 and save current state
         digitalWrite(f1_relay, HIGH);
         digitalWrite(b1_relay, HIGH);
         digitalWrite(b2_relay, HIGH);
