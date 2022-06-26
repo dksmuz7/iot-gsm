@@ -11,6 +11,10 @@ Pin Description :-
     6. Rx(Arduino)     --> 3
     7. Tx(Arduino)     --> 2
 ```
+**Block Diagram**
+<img src="./block_diagram.png" alt="" style="height:40rem;">
+
+**Schematic**
 <img src="./schematic.jpg" alt="" style="height:50rem;">
 
 ### Commands for various operations (Send SMS)
