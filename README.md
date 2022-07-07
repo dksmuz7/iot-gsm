@@ -1,6 +1,7 @@
 # <p align="center">GSM based IOT device programme</p>
 ### Smart Portable Electric Board
-An electric board which enables you to control your home appliances far from home. This is an IoT device to make home smarter. This is our first prototype.
+An electric board which enables you to control your home appliances far from home. This is an IoT device to make home smarter. This is our first prototype. 
+**Video Preview** - https://drive.google.com/file/d/1p9NIu56NuiJvuRx7MYno8UnidGFYKtBa/view?usp=sharing 
 
 ### Features
 - Easy to install
