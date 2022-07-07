@@ -1,36 +1,32 @@
 # <p align="center">GSM based IOT device programme</p>
-## Smart Portable Electric Board
-An electric board which enables you to control your home appliances far from home. This is an IoT device to make home smarter.
+### Smart Portable Electric Board
+An electric board which enables you to control your home appliances far from home. This is an IoT device to make home smarter. This is our first prototype.
 
-## Features
+### Features
 - Easy to install
 - SMS controlled fan, bulb, etc.
 - Automatic fan speed controlling
 - Motion controlled stair lights
 
-## Technology Used
-- Arduino Nano (A microcontroller)
+### Technology Used
+- Arduino Nano/Uno
 - GSM Module (SIM900A)
 - PIR (Motion Sensor)
 - DHT11 (Temperature Sensor)
 
-## Instruction To control appliances
+### Instruction To control appliances
 - Send SMS to the inserted SIM in GSM module
 - Use only the given commands (Mentioned in the file)
 
-
-## Block Diagram
+### Block Diagram
 
 <img src="./block_diagram.png" alt="" style="height:40%;">
 
-<!-- **Schematic** -->
-
-<!-- <img src="./schematic.jpg" alt="" style="height:50rem;"> -->
-## Images
-<img src="img1.jpg" style="width:99%">
+### Images
+<img src="img1.jpg" style="width:100%">
 <img src="img2.jpg" style="width:49%"> <img src="img3.jpg" style="width:49%">
 
-## Pin Description :
+### Pin Description :
 | Sl No. | Description     |     Pin       |
 | :---   | :---            |     :---:     |
 |1       | Rlay 1 (Bulb 1) |      4        |
