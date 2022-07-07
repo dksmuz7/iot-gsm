@@ -23,9 +23,10 @@ An electric board which enables you to control your home appliances far from hom
 <img src="./block_diagram.png" alt="" style="height:40%;">
 
 ### Images
-
-<img src="img1.jpg" style="width:100%">
-<img src="img2.jpg" style="width:48%"> <img src="img3.jpg" style="width:48%">
+<p>
+  <img src="img1.jpg" style="width:99%">
+  <img src="img2.jpg" style="width:49%"> <img src="img3.jpg" style="width:49%">
+</p>
 
 ### Pin Description :
 | Sl No. | Description     |     Pin       |
@@ -38,10 +39,10 @@ An electric board which enables you to control your home appliances far from hom
 |6       | Tx(Arduino)     |      2        |
 |7       | Temperature pin |      12       |
 |9       | PIR Pin         |      A2       |
-|1       | Mode 1          |      11       |
-|1       | Mode 2          |      10       |
-|1       | Mode 3          |      9        |
-|1       | Mode 4          |      8        |
+|10      | Mode 1          |      11       |
+|11      | Mode 2          |      10       |
+|12      | Mode 3          |      9        |
+|13      | Mode 4          |      8        |
 
 ___Note:-___ Pin description will not change if you use Arduino uno
 
