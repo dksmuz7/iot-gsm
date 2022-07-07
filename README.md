@@ -25,9 +25,8 @@ Pin Description :-
 
 <!-- <img src="./schematic.jpg" alt="" style="height:50rem;"> -->
 **Images**
-<img src="img1.jpg" alt="Snow" style="width:100%">
-<img src="img2.jpg" alt="Forest" style="width:49%">
-<img src="img3.jpg" alt="Mountains" style="width:49%">
+<img src="img1.jpg" style="width:100%">
+<img src="img2.jpg" style="width:45%"> <img src="img3.jpg" style="width:45%">
 
 ### Commands for various operations (Send SMS)
 | Sl No. | Command     |     Description      |
