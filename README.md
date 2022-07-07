@@ -23,6 +23,7 @@ An electric board which enables you to control your home appliances far from hom
 <img src="./block_diagram.png" alt="" style="height:40%;">
 
 ### Images
+
 <img src="img1.jpg" style="width:100%">
 <img src="img2.jpg" style="width:48%"> <img src="img3.jpg" style="width:48%">
 
